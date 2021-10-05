@@ -1,0 +1,53 @@
+﻿  Determining projects to restore...
+  Restored C:\Users\Admin\Documents\pcfTimelineControl\src\obj\PowerAppsTools_contoso\PowerAppsTools_contoso.cdsproj (in 1.28 sec).
+  1 of 2 projects are up-to-date for restore.
+  
+  > pcf-project@1.0.0 clean C:\Users\Admin\Documents\pcfTimelineControl\src
+  > pcf-scripts clean "--noColor" "--buildMode" "development" "--outDir" "C:\Users\Admin\Documents\pcfTimelineControl\src\out\controls" "--buildSource" "MSBuild"
+  
+  [5:15:56 PM] [clean]  Initializing...
+  [5:15:56 PM] [clean]  Cleaning build outputs...
+  [5:15:56 PM] [clean]  Succeeded
+  Cleaning output directory: bin\Debug\, Intermediate directory: obj\Debug\ and Solution Packager working directory: obj\Debug\
+  Removing log file: bin\Debug\SolutionPackager.log and generated solution package: bin\Debug\PowerAppsTools_contoso.zip
+  
+  > pcf-project@1.0.0 build C:\Users\Admin\Documents\pcfTimelineControl\src
+  > pcf-scripts build "--noColor" "--buildMode" "development" "--outDir" "C:\Users\Admin\Documents\pcfTimelineControl\src\out\controls" "--buildSource" "MSBuild"
+  
+  [5:16:00 PM] [build]  Initializing...
+  [5:16:00 PM] [build]  Validating manifest...
+  [5:16:00 PM] [build]  Validating control...
+  [5:16:02 PM] [build]  Generating manifest types...
+  [5:16:02 PM] [build]  Generating design types...
+  [5:16:02 PM] [build]  Compiling and bundling control...
+  [Webpack stats]:
+  Hash: 252b9da3e333969a3d4c
+  Version: webpack 4.42.1
+  Time: 8187ms
+  Built at: 09/30/2021 5:16:10 PM
+      Asset      Size  Chunks             Chunk Names
+  bundle.js  1.56 MiB    main  [emitted]  main
+  Entrypoint main = bundle.js
+  [./node_modules/moment/locale sync recursive ^\.\/.*$] ./node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {main} [optional] [built]
+  [./node_modules/moment/locale/af.js] 2.3 KiB {main} [optional] [built]
+  [./node_modules/moment/locale/ar-dz.js] 3.86 KiB {main} [optional] [built]
+  [./node_modules/moment/locale/ar-kw.js] 2.12 KiB {main} [optional] [built]
+  [./node_modules/moment/locale/ar-ly.js] 3.98 KiB {main} [optional] [built]
+  [./node_modules/moment/locale/ar-ma.js] 2.17 KiB {main} [optional] [built]
+  [./node_modules/moment/locale/ar-sa.js] 3.05 KiB {main} [optional] [built]
+  [./node_modules/moment/locale/ar-tn.js] 2.12 KiB {main} [optional] [built]
+  [./node_modules/moment/locale/ar.js] 4.32 KiB {main} [optional] [built]
+  [./node_modules/moment/moment.js] 141 KiB {main} [built]
+  [./node_modules/vis-data/peer/umd/vis-data.js] 335 KiB {main} [built]
+  [./node_modules/vis-timeline/peer/umd/vis-timeline-graph2d.min.js] 583 KiB {main} [built]
+  [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 475 bytes {main} [built]
+  [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {main} [built]
+  [./timelinecontrol/index.ts] 4.69 KiB {main} [built]
+      + 127 hidden modules
+  [5:16:10 PM] [build]  Generating build outputs...
+  [5:16:10 PM] [build]  Succeeded
+  [pcf-1059] [Info] Did not detect a themed control. Processing as regular control.
+  Running Solution Packager to build package type: Unmanaged bin\Debug\PowerAppsTools_contoso.zip
+  Solution: bin\Debug\PowerAppsTools_contoso.zip generated.
+  Solution Package Type: Unmanaged generated.
+  Completed intermiediate files clean up.

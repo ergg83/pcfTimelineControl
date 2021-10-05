@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nI0DAKQRSzaUe/i4zW42dI10/GVaQZuPDLLcSZG9mVWMPSXDgelCiBwkXsfP4OBVuxGaYXe0I6xzX2EoSrk61Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\pcfTimelineControl\\src\\src.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.9.8\\microsoft.powerapps.msbuild.pcf.1.9.8.nupkg.sha512"
+  ],
+  "logs": []
+}
